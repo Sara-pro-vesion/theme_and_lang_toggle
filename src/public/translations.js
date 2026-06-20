@@ -1,6 +1,6 @@
 
 
-export default translations = {
+const translations = {
   en : {
     title : "We are cooking !",
     subHeader : "the site will be lunched soon ..",
@@ -13,10 +13,11 @@ export default translations = {
     paragraph : "Cooking ensemble pour que vous obteniez les meilleurs résultats, car le travail bien fait prend du temps.",
     btn : "Revenez plus tard",
   },
-  sp : {
+  es : {
     title : "¡Estamos preparando todo!",
     subHeader : "La web se pondrá en marcha pronto...",
     paragraph : "Vamos a ponernos manos a la obra para que consigas los mejores resultados, porque el buen trabajo lleva su tiempo.",
     btn : "Vuelve más tarde",
   }
 }
+export default translations
