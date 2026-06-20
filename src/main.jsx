@@ -3,11 +3,15 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import LanguageProvider from './contexts/LanguageContext.jsx'
+import ThemeProvider from './contexts/ThemeContext.jsx'
+
 
 createRoot(document.getElementById('root')).render(
-  <LanguageProvider>
-    <StrictMode>
-    <App />
-  </StrictMode>
-  </LanguageProvider>
+  <ThemeProvider>
+    <LanguageProvider>
+        <StrictMode>
+            <App/>
+        </StrictMode>
+    </LanguageProvider>
+  </ThemeProvider>
 )

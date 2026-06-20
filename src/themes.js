@@ -6,7 +6,7 @@ const themes = {
     },
     dark : {
         bg : "bg-[#141414]",
-        textColor : "text-[#FFFF]"
+        textColor : "text-[#FFFFFF]"
     },
 }
 export default themes
