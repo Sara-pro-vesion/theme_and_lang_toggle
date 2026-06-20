@@ -8,7 +8,7 @@ const translations = {
     btn : "Come back later",
   },
   fr : {
-    title : "On est en train de Cooking !",
+    title : "En train de Cooking !",
     subHeader : "Le site sera bientôt mis en ligne...",
     paragraph : "Cooking ensemble pour que vous obteniez les meilleurs résultats, car le travail bien fait prend du temps.",
     btn : "Revenez plus tard",

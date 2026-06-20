@@ -7,7 +7,7 @@ export default function LangToggle() {
 
   return (
     <div>
-      <button className='border-none rounded-lg p-1 bg-white absolute' onClick={toggleLanguage}>{locale.toUpperCase()}</button>
+      <button className='border-[0.5px] border-white rounded-lg px-1 text-white w-[30px]' onClick={toggleLanguage}>{locale.toUpperCase()}</button>
     </div>
   )
 }

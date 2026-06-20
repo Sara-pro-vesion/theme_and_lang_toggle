@@ -5,9 +5,11 @@ export default function LangToggle() {
     
     const {theme ,themeToggle } = useTheme();
 
+  const displayTheme = theme === 'light' ? '⏾ ' : '𖤓' ;
+
   return (
     <div>
-      <button className='border-none rounded-lg p-1 bg-white absolute left-50' onClick={themeToggle}>{theme}</button>
+      <button className='border-[0.5px] border-white rounded-lg px-1 text-white w-[30px]' onClick={themeToggle}>{displayTheme}</button>
     </div>
   )
 }

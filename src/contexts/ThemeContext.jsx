@@ -1,5 +1,5 @@
 import React, { createContext, useState } from 'react'
-import themes from '../themes';
+import themes from '../utilities/themes';
 
 export const themeContext = createContext();
 
